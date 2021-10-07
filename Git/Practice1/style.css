@@ -1,0 +1,28 @@
+body {
+    background-color: #eee;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin: 10vh 0 5vh 10vw;
+}
+
+hr {
+    margin: 0 30vw 0 30vw;
+}
+
+.subtitle-line {
+    margin: 0 74vw 0 5vw;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+ul li {
+    margin: 0;
+}
