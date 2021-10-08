@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            navigation
+        </nav>
+    </header>
+    <main>
+        <section id="form-section">
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>CONTACT US</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="" minlength="3" maxlength="32" pattern="[A-Za-z]{1,32}" required>  
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" required>
+                    <br>
+                    <label for="phone">Phone:</label>
+                    <input type="phone" name="phone" id="" pattern="[0][789][0-9]{8}" required>
+                    <br>
+                    <p>Position:</p>
+                    <input type="radio" id="developer" name="position" value="" required>
+                    <label for="developer">Developer</label>
+                    <br>
+                    <input type="radio" id="tester" name="position" value="" required>
+                    <label for="tester">Tester</label>
+                    <br>
+                    <label for="date">When can you start?</label>
+                    <input type="date" name="date" id="" required>
+                    <br>
+                    <label for="file">Upload Resume:</label>
+                    <input type="file" name="file" id="" enctype="multipart/form-data" required>
+                    <br>
+                    <input type="submit" value="Apply">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        footer
+    </footer>
+</body>
+</html>
