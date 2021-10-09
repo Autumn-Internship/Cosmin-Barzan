@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+    <style>
+        .mandatory-color {
+            color: red;
+        }
+        span {
+            color: red;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <form style="width: 50%;"> 
+        <fieldset>
+            <legend><strong>Formular &#238;nscriere concurs<br>Mate-Info UBB 2021</strong></legend>
+
+            <img src="https://dejulmeu.ro/wp-content/uploads/2019/11/ubb-1024x684-1000x500.jpg" alt="University image" width="110" height="55" style="float: right;">
+
+            <p class="mandatory-color" style="font-weight: bold;">
+                Obligatoriu *
+            </p>
+
+            <table>
+                <tr>
+                    <th colspan="4">Date personale</th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="email">Email<span> *</span></label>
+                    </th>
+                    <td colspan="3">
+                        <input type="email" id="email" size="58" required autofocus>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="nume">Nume<span> *</span></label>
+                    </th>
+                    <td><input type="text" id="nume" required>
+                    </td>
+                    <th style="white-space: nowrap;">
+                        <label for="prenume">Prenume<span> *</span></label>
+                    </th>
+                    <td><input type="text" id="prenume" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="white-space: nowrap">
+                        <label for="initiala">Ini&#355;iala tat&#259;lui<span> *</span></label>
+                    </th>
+                    <td>
+                        <input type="text" id="initiala" required>
+                    </td>
+                    <th>
+                        <label for="cnp">CNP<span> *</span></label>
+                    </th>
+                    <td>
+                        <input type="text" id="cnp" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <label for="localitate">Localitatea<span> *</span></label>
+                    </th>
+                    <td>
+                        <input type="text" id="localitate" required>
+                    </td>
+                    <th>
+                        <label for="judet">Jude&#355;<span> *</span></label>
+                    </th>
+                    <td>
+                        <input type="text" id="judet" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="white-space: nowrap">
+                        <label for="liceu">Liceul/&#350;coala<span> *</span></label>
+                    </th>
+                    <td>
+                        <input type="text" id="liceu" required>
+                    </td>
+                    <th>
+                        <label for="clasa">Clasa<span> *</span></label>
+                    </th>
+                    <td style="text-align: center;">
+                        <select name="clasa" id="clasa">
+                            <option>Clasa XI</option>
+                            <option selected>Clasa XII</option>       
+                            <option>Absolvent</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th colspan="4">Informa&#355;ii concurs</th>
+                </tr>
+                  
+                <tr>
+                    <th style="white-space: nowrap;">
+                        <label for="dovada">Dovada pl&#259;&#355;ii taxei de concurs<span> *</span></label>
+                    </th>
+                    <td colspan="3" style="text-align: center;">
+                        <input type="file" id="dovada" multiple>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="white-space: nowrap;">
+                        <label for="numar">Num&#259;r concurs<span> *</span></label>
+                    </th>
+                    <td colspan="3">
+                        <input type="number" step="1" id="numar" style="margin-left: 120px; text-align: center;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="white-space: nowrap;">
+                        <label>Proba sus&#355;inut&#259;<span > *</span></label>
+                    </th>
+                    <td colspan="3" style="text-align: center;">
+                        <input type="radio" name="proba" id="matematica"><label for="matematica">Matematic&#259;</label><br>
+                        <input type="radio" name="proba" id="informatica" style="margin-left: 4px;"><label for="informatica">Informatic&#259;</label></td><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="white-space: nowrap;">
+                        <label>Limba folosit&#259;<span> *</span></label>
+                    </th>
+                    <td colspan="3" style="text-align: center;">
+                        <input type="radio" name="limba" id="romana"><label for="romana">Limba roman&#259;</label><br>
+                        <input type="radio" name="limba" id="maghiara" style="margin-left: 16px;"><label for="maghiara">Limba maghiar&#259;</label><br>
+                        <input type="radio" name="limba" id="germana" style="margin-left: 12px;"><label for="germana">Limba german&#259;</label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="white-space: nowrap;">
+                        <label>Declara&#355;ie GDPR<span> *</span></label>
+                    </th>
+                    <td colspan="3" style="text-align: center;">
+                        <input type="checkbox" name="declaratie" id="declaratie"><label for="declaratie">Declar c&#259; sunt de acord cu prelucrarea datelor personale.</label>
+                    </td>
+                </tr>
+                  
+                <tr>
+                    <th style="white-space: nowrap;">
+                        <label for="observatii">Observa&#355;ii</label>
+                    </th>
+                    <td colspan="3">
+                        <textarea name="message" id="observatii" rows="2" cols="56" maxlength="100" readonly style="text-align: center;">admitere@cs.ubbcluj.ro</textarea>
+                    </td>
+                </tr>
+            </table>
+
+            <div> <br> 
+                Prelucrarea datelor cu caracter personal ale candida&#355;ilor se va face cu respectarea   
+                <a href="https://www.dataprotection.ro/servlet/ViewDocument?id=1262" target="_blank">regulamentului european nr. 679/2016 privind GDPR. </a>
+            </div>
+            
+            <div> <br>
+                <p title="paragraph1">
+                    Pentru dovada pla&#355;ii taxei de cocurs sunt acceptate urm&#259;toarele:
+                </p>
+                <ol start="1">
+                    <li>Fi&#351;ier &#238;n format
+                        <ul style="list-style-type: disc;">
+                            <li>PDF</li>
+                            <li>DOC</li>
+                        </ul>
+                    </li>
+                    <li>Imagine &#238;n format
+                        <ul style="list-style-type: square;">
+                            <li>JPG</li>
+                            <li>PNG</li>
+                            <li>GIF</li>
+                        </ul>
+                    </li>    
+                </ol>
+                <p title="paragraph2">
+                    &#206;nainte de a ap&#259;sa butonul de SUBMIT aigura&#355;i-v&#259; c&#259;:
+                </p>
+                <ol type="I">
+                    <li>Datele introduse sunt corecte</li>
+                    <li>Fi&#351;ierul ata&#351;at nu dep&#259;&#351;e&#351;te 10 MB</li>
+                </ol>
+              </div>
+
+            <input type="submit" value="Submit" style="margin-left: 45%; width: 10%;">
+              
+        </fieldset>
+    </form>
+</body>
+</html>
