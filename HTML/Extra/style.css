@@ -1,0 +1,10 @@
+.mandatory-color {
+    color: red;
+}
+span {
+    color: red;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
