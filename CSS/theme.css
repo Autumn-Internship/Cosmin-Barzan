@@ -1,3 +1,4 @@
 :root {
-    --mandatory: #dc3545
+    --mandatory: #dc3545;
+    --primary: rgba(26, 73, 119, 1);
 }
