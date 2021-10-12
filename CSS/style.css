@@ -7,6 +7,10 @@ span {
     color: var(--mandatory)
 }
 body {
+    background-color: #eee;
+}
+
+main {
     display: flex;
     justify-content: center;
 }

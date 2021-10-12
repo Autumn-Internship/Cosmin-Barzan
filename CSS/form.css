@@ -1,0 +1,76 @@
+@import './font.css';
+
+fieldset {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 0;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 200px;
+    background-color: #97ccde;
+    border: 0;
+    outline: none;
+    margin-left: 40%; 
+    width: 20%;
+    border-radius: 2px;
+}
+
+input[type~="submit"]:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    transition: box-shadow 0.3s ease-out;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    height: 25px;
+}
+
+input[type="email"] {
+    height: 25px;
+}
+
+input[type="number"] {
+    height: 25px;
+}
+
+input[type="text"]:focus {
+    outline: 1.5px solid var(--primary);
+}
+
+input[type="email"]:focus {
+    outline: 1.5px solid var(--primary);
+}
+
+
+input[type="number"]:focus {
+    outline: 1.5px solid var(--primary);
+}
+
+.rounded {
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+.text-blue {
+    color: var(--primary);
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-large {
+    font-size: var(--large);
+}
+
+select {
+    height: 25px;
+}
+
+select:focus {
+    outline: 1.5px solid var(--primary);
+}
