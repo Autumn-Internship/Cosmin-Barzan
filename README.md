@@ -16,6 +16,9 @@ It can be found here: <a href= "https://cosminbarzan.github.io/">cosminbarzan.gi
 + [Complex form in HTML(extra)](https://cosminbarzan.github.io/HTML-Extra/)
   + [Code](https://github.com/Autumn-Internship/Cosmin-Barzan/tree/main/HTML/Extra) 
 
-### 10 - 11 oct
+### 11 - 12 oct
 + [Style complex form with CSS](https://cosminbarzan.github.io/CSS/)
   + [Code](https://github.com/Autumn-Internship/Cosmin-Barzan/tree/main/CSS)
+
+### 13 oct
++ [JavaScript Challenges](https://github.com/Autumn-Internship/Cosmin-Barzan/tree/main/JavaScript)
