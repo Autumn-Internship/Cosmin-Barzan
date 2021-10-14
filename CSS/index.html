@@ -31,7 +31,7 @@
 
                     <tr>
                         <th>
-                            <label for="email">Email<span> *</span></label>
+                            <label for="email" class="required">Email</label>
                         </th>
                         <td colspan="3">
                             <input type="email" class="rounded" id="email" placeholder="Emailul" size="62" required autofocus>
@@ -40,12 +40,12 @@
 
                     <tr>
                         <th>
-                            <label for="nume">Nume<span> *</span></label>
+                            <label for="nume" class="required">Nume</label>
                         </th>
                         <td><input type="text" class="rounded" id="nume" placeholder="Numele" required>
                         </td>
                         <th style="white-space: nowrap;">
-                            <label for="prenume">Prenume<span> *</span></label>
+                            <label for="prenume" class="required">Prenume</label>
                         </th>
                         <td><input type="text" class="rounded" id="prenume" placeholder="Prenumele" required>
                         </td>
@@ -53,13 +53,13 @@
 
                     <tr>
                         <th style="white-space: nowrap">
-                            <label for="initiala">Ini&#355;iala tat&#259;lui<span> *</span></label>
+                            <label for="initiala" class="required">Ini&#355;iala tat&#259;lui</label>
                         </th>
                         <td>
                             <input type="text" class="rounded" id="initiala" placeholder="Initiala tatalui" required>
                         </td>
                         <th>
-                            <label for="cnp">CNP<span> *</span></label>
+                            <label for="cnp" class="required">CNP</label>
                         </th>
                         <td>
                             <input type="text" class="rounded" id="cnp" placeholder="Codul numeric personal" required>
@@ -68,13 +68,13 @@
 
                     <tr>
                         <th>
-                            <label for="localitate">Localitatea<span> *</span></label>
+                            <label for="localitate" class="required">Localitatea</label>
                         </th>
                         <td>
                             <input type="text" class="rounded" id="localitate" placeholder="Localitatea" required>
                         </td>
                         <th>
-                            <label for="judet">Jude&#355;<span> *</span></label>
+                            <label for="judet" class="required">Jude&#355;</label>
                         </th>
                         <td>
                             <input type="text" class="rounded" id="judet" placeholder="Judetul" required>
@@ -83,13 +83,13 @@
 
                     <tr>
                         <th style="white-space: nowrap">
-                            <label for="liceu">Liceul/&#350;coala<span> *</span></label>
+                            <label for="liceu" class="required">Liceul/&#350;coala</label>
                         </th>
                         <td>
                             <input type="text" class="rounded" id="liceu" placeholder="Liceul" required>
                         </td>
                         <th>
-                            <label for="clasa">Clasa<span> *</span></label>
+                            <label for="clasa" class="required">Clasa</label>
                         </th>
                         <td style="text-align: center;">
                             <select name="clasa" id="clasa" class="rounded">
@@ -106,7 +106,7 @@
                     
                     <tr>
                         <th style="white-space: nowrap;">
-                            <label for="dovada">Dovada pl&#259;&#355;ii taxei de concurs<span> *</span></label>
+                            <label for="dovada" class="required">Dovada pl&#259;&#355;ii taxei de concurs</label>
                         </th>
                         <td colspan="3" style="text-align: center;">
                             <input type="file" class="rounded" id="dovada" multiple>
@@ -115,7 +115,7 @@
 
                     <tr>
                         <th style="white-space: nowrap;">
-                            <label for="numar">Num&#259;r concurs<span> *</span></label>
+                            <label for="numar" class="required">Num&#259;r concurs</label>
                         </th>
                         <td colspan="3">
                             <input type="number" class="rounded" step="1" id="numar" placeholder="Numarul de concurs" style="margin-left: 120px; text-align: center;">
@@ -124,7 +124,7 @@
 
                     <tr>
                         <th style="white-space: nowrap;">
-                            <label>Proba sus&#355;inut&#259;<span > *</span></label>
+                            <label class="required">Proba sus&#355;inut&#259;</label>
                         </th>
                         <td colspan="3" style="text-align: center;">
                             <input type="radio" name="proba" id="matematica"><label for="matematica">Matematic&#259;</label><br>
@@ -134,7 +134,7 @@
 
                     <tr>
                         <th style="white-space: nowrap;">
-                            <label>Limba folosit&#259;<span> *</span></label>
+                            <label class="required">Limba folosit&#259;</label>
                         </th>
                         <td colspan="3" style="text-align: center;">
                             <input type="radio" name="limba" id="romana"><label for="romana">Limba roman&#259;</label><br>
@@ -145,7 +145,7 @@
 
                     <tr>
                         <th style="white-space: nowrap;">
-                            <label>Declara&#355;ie GDPR<span> *</span></label>
+                            <label class="required">Declara&#355;ie GDPR</label>
                         </th>
                         <td colspan="3" style="text-align: center;">
                             <input type="checkbox" name="declaratie" id="declaratie"><label for="declaratie">Declar c&#259; sunt de acord cu prelucrarea datelor personale.</label>

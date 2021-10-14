@@ -98,3 +98,8 @@ input {
     color: var(--primary);
     font-size: 18px;
 }
+
+.required:after {
+    content: " *";
+    color: var(--mandatory);
+}
