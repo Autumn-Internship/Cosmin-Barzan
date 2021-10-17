@@ -22,3 +22,7 @@ It can be found here: <a href= "https://cosminbarzan.github.io/">cosminbarzan.gi
 
 ### 13 oct
 + [JavaScript Challenges](https://github.com/Autumn-Internship/Cosmin-Barzan/tree/main/JavaScript)
+
+### 14 oct
++ [Image Gallery](https://cosminbarzan.github.io/Image-Gallery/)
+  + [Code](https://github.com/Autumn-Internship/Cosmin-Barzan/tree/main/JavaScript/ImageGallery)
