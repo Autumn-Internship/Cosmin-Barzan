@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbb;
+}
+
+#mainImg {
+    width: 40vw;
+    height: 50vh;
+    outline: 2px solid #000;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+
+li img {
+    cursor: pointer;
+    width: 7.8vw;
+    height: 12vh;
+    outline: 1px solid #000;
+}
+
+ul {
+    padding: 10px 0 0 0;
+    margin: 0;
+}
