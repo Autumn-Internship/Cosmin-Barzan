@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Image gallery</title>
 </head>
 <body>
     <main>
-        <div id="mainImg">
-            <img src="https://cdn.pixabay.com/photo/2015/04/29/09/28/graffiti-745071__340.jpg" alt="Main image">
+        <div>
+            <img id="mainImg" src="https://cdn.pixabay.com/photo/2015/04/29/09/28/graffiti-745071__340.jpg" alt="Main image">
         </div>
 
         <ul id="thumbnails">
@@ -30,5 +30,11 @@
             </li>
         </ul>
     </main>
+
+    <script>
+        thumbnails.addEventListener('click', (event) => {
+            mainImg.src = event.target.src;
+        })
+    </script>
 </body>
 </html>
